@@ -29,16 +29,27 @@ To solve the particle interactions ODE, use the RIDC_particle.cpp script.
 In the script the following has to be defined:
 
 fx_posi, fv_posi, fx_nega, fv_nega: RHS of the ODE function for ions and electrons
+
 N_posi: Number of ions
+
 N_nega: Number of electrons
+
 q_posi: Charge of ions
+
 q_nega: Charge of electrons
+
 m_posi: Mass of ions
+
 m_nega: Mass of electrons
+
 d: Distance between particles
+
 M: Number of processes 
+
 T: End Time 
+
 y0: Initial condition 
+
 N: Number of timesteps
 
 Ohter settings are similar to RIDC_simple.cpp. Prediction results at time T will be saved in a txt file.
