@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load gcc
+
+## compile
+
+
+## compile with MPI:
+mpicxx RIDC_simple.cpp  -o RIDC_simple
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
